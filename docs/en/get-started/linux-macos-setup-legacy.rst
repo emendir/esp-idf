@@ -187,6 +187,21 @@ or with Fish shell
     cd ~/esp/esp-idf
     ./install.fish all
 
+If you wish to specify the python command to use, you can set the ``ESP_PYTHON`` environment variable:
+
+.. code-block:: bash
+
+    export ESP_PYTHON=python3.11
+    ./install.sh all
+
+or with Fish shell
+
+.. code-block:: fish
+
+    # TODO
+    ./install.fish all
+
+
 .. note::
    For macOS users, if an error like this is shown during any step::
 
